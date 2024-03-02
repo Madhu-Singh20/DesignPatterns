@@ -1,4 +1,4 @@
-package com.ms.designPatterns.Observer;
+package com.ms.designPatterns.behavioral.Observer;
 
 public interface StockObserable {
 

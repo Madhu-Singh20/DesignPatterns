@@ -1,4 +1,4 @@
-package com.ms.designPatterns.Observer;
+package com.ms.designPatterns.behavioral.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
