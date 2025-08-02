@@ -1,9 +1,11 @@
-package com.ms.designPatterns.behavioral.Observer;
+package com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.obserable;
+
+import com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.observer.NotificationObserver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MobileObserable implements StockObserable{
+public class MobileObserable implements StockObserable {
 
     List<NotificationObserver> mobileObserver=new ArrayList<>();
     int noOfItemsInStock=0;

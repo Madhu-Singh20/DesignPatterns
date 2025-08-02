@@ -1,6 +1,6 @@
-package com.ms.designPatterns.behavioral.Observer;
+package com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.observer;
 
-public class EmailNotificationObserver implements NotificationObserver{
+public class EmailNotificationObserver implements NotificationObserver {
 
     public String email;
 

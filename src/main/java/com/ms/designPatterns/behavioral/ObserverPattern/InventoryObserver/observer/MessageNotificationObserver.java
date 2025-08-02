@@ -1,6 +1,6 @@
-package com.ms.designPatterns.behavioral.Observer;
+package com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.observer;
 
-public class MessageNotificationObserver implements NotificationObserver{
+public class MessageNotificationObserver implements NotificationObserver {
 
     public String phoneNumber;
 
