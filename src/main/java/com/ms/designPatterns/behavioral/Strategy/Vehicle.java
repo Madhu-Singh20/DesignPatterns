@@ -1,6 +1,6 @@
 package com.ms.designPatterns.behavioral.Strategy;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     DriveStrategy driveStrategy;
 
