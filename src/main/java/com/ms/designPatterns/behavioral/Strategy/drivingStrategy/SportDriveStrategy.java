@@ -1,4 +1,4 @@
-package com.ms.designPatterns.behavioral.Strategy;
+package com.ms.designPatterns.behavioral.Strategy.drivingStrategy;
 
 public class SportDriveStrategy implements DriveStrategy{
 
