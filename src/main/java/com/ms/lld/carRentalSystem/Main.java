@@ -34,5 +34,7 @@ public class Main {
         storeList.add(new Store(id, location, storeInventoryManagement ));
     }
 
-    private static void addUser(List<User> us)
+    private static void addUser(List<User> us){
+
+    }
 }
