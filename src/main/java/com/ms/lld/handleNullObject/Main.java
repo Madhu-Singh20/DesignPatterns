@@ -1,4 +1,4 @@
-package com.ms.lld.HandleNullObject;
+package com.ms.lld.handleNullObject;
 
 public class Main {
 

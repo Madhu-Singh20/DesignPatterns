@@ -1,14 +1,14 @@
-package com.ms.lld.HandleNullObject;
+package com.ms.lld.handleNullObject;
 
-public class NullVehicle extends Vehicle{
+public class Car extends Vehicle{
 
     @Override
     public int getSeatingCapacity() {
-        return 0;
+        return 4;
     }
 
     @Override
     public int getTankCapacity() {
-        return 0;
+        return 20;
     }
 }

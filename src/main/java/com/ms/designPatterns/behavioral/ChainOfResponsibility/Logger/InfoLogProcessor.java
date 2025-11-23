@@ -1,4 +1,4 @@
-package com.ms.designPatterns.behavioral.CoR.Logger;
+package com.ms.designPatterns.behavioral.ChainOfResponsibility.Logger;
 
 public class InfoLogProcessor extends LogProcessor{
 
