@@ -8,7 +8,6 @@ public class Main {
         VendingMachine vendingMachine=new VendingMachine();
         vendingMachine.initialize();
 
-        State state= vendingMachine.getState();
         try {
             vendingMachine.getState().start(vendingMachine);
             vendingMachine.getState().addCoin(vendingMachine, new Coin(50));
