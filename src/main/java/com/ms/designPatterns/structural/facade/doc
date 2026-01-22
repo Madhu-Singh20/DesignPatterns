@@ -1,0 +1,22 @@
+The Facade Design Pattern is a structural design pattern that provides a simplified interface to a
+complex system of classes, libraries, or frameworks. It hides internal complexity and exposes only what the
+client needs.
+
+Intent-
+Provide a unified, easy-to-use interface to a set of interfaces in a subsystem.
+
+Problem It Solves-
+A system has many interdependent classes
+Clients must understand too many details
+Code becomes tightly coupled and hard to maintain
+Facade reduces complexity by acting as a single entry point.
+
+Key Idea-
+Instead of calling multiple subsystem classes directly, the client interacts with one facade class, which delegates
+work to the appropriate components.
+
+Structure-
+Client → Facade → Subsystem Classes
+Client: Uses the facade
+Facade: Knows which subsystem classes to use
+Subsystem Classes: Perform the actual work (unchanged)
