@@ -1,0 +1,54 @@
+Template Design Pattern
+The Template Method Design Pattern is a behavioral pattern that defines the skeleton of an algorithm in a base class, while allowing subclasses to override specific steps without changing the overall structure.
+It’s part of the GoF (Gang of Four) patterns described in Design Patterns: Elements of Reusable Object-Oriented Software.
+
+📌 When to Use It
+Use Template Pattern when:
+Multiple classes follow the same workflow
+Some steps are common
+Some steps vary
+You want to avoid duplicate code
+You want to enforce process order
+
+🧠 Real-World Example
+Think of making tea and coffee:
+Steps:
+Boil water
+Brew
+Pour into cup
+Add condiments
+Boiling + pouring are same
+Brewing + condiments differ
+So you define the process once and allow subclasses to customize parts.
+
+🏗 Structure
+AbstractClass
+  - templateMethod()  <-- final method (defines algorithm steps)
+  - step1()
+  - step2()  <-- abstract
+  - step3()  <-- abstract
+
+🔥 Key Concepts
+Concept	                  Meaning
+Template Method	          Defines algorithm structure
+Hooks	                  Optional overridable methods
+Abstract Methods	      Steps that subclasses must implement
+Final Method	          Prevents changing workflow
+
+💡 Template vs Strategy (Interview Question)
+Template Pattern	          Strategy Pattern
+Uses inheritance	          Uses composition
+Algorithm structure fixed	  Algorithm interchangeable
+Compile-time behavior	      Runtime behavior
+
+If interviewer asks:
+"Why not Strategy instead of Template?"
+Answer:
+Template enforces workflow order. Strategy allows dynamic switching of algorithm.
+
+🏢 Practical Usage in Enterprise Apps
+In Spring Boot:
+Abstract batch processing classes
+Common controller workflow
+Report generation frameworks
+Payment processing pipelines
