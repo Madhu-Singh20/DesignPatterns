@@ -1,6 +1,6 @@
-package com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.obserable;
+package com.ms.designPatterns.behavioral.observerPattern.InventoryObserver.obserable;
 
-import com.ms.designPatterns.behavioral.ObserverPattern.InventoryObserver.observer.NotificationObserver;
+import com.ms.designPatterns.behavioral.observerPattern.InventoryObserver.observer.NotificationObserver;
 
 import java.util.ArrayList;
 import java.util.List;
