@@ -1,0 +1,6 @@
+The Bridge Design Pattern is a structural pattern that decouples abstraction from implementation, so both can evolve independently.
+
+🎯 When to Use Bridge
+When abstraction and implementation may vary independently
+When inheritance causes too many subclasses
+When you want runtime flexibility
