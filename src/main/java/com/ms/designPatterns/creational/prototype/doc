@@ -1,0 +1,36 @@
+The Prototype Design Pattern is a creational pattern that creates new objects
+by cloning an existing object (prototype) instead of instantiating from scratch.
+
+📌 When to Use Prototype
+Use Prototype when:
+Object creation is expensive (DB calls, complex setup)
+You want to avoid subclass explosion
+You need many similar objects with small differences
+Object configuration is dynamic at runtime
+
+🏗 Structure
+Prototype (interface)
+   └── clone()
+
+ConcretePrototype
+   └── implements clone()
+
+Client
+   └── uses prototype.clone()
+
+🏢 Real Enterprise Use Cases
+1️⃣ Configuration Objects
+Clone base config and tweak per environment.
+2️⃣ Template-based Order Creation
+Duplicate an order structure and modify few fields.
+3️⃣ Document Generation Systems
+Clone document templates.
+4️⃣ Caching Expensive Objects
+Pre-configured objects reused via cloning.
+
+
+🎯 When NOT to Use It
+If object structure is simple
+If deep cloning is complex
+If object contains circular references
+If immutability is preferred
