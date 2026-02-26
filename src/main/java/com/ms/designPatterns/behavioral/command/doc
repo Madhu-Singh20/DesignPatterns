@@ -1,0 +1,14 @@
+The Command Design Pattern is a behavioral design pattern that turns a request into a separate object.
+
+This lets you:
+Parameterize objects with requests
+Queue or log requests
+Support undo/redo operations
+Decouple sender and receiver
+
+🧠 Real-Life Example
+Think of a TV remote:
+You press a button (Invoker)
+The remote sends a command
+The TV (Receiver) performs the action
+The remote doesn’t know how the TV turns on — it just triggers the command.
