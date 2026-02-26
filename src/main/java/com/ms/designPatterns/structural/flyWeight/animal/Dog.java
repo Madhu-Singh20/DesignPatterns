@@ -1,12 +1,11 @@
-package com.ms.designPatterns.structural.flyWeight;
+package com.ms.designPatterns.structural.flyWeight.animal;
 
-public class Cat implements Animal{
-
+public class Dog implements Animal{
     private String name;
 
     @Override
     public void setName(String name) {
-       this.name=name;
+        this.name=name;
     }
 
     @Override

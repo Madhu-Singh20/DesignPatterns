@@ -1,4 +1,4 @@
-package com.ms.designPatterns.structural.flyWeight;
+package com.ms.designPatterns.structural.flyWeight.animal;
 
 public interface Animal {
 

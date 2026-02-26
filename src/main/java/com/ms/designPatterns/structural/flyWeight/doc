@@ -1,0 +1,19 @@
+The Flyweight Design Pattern is a structural pattern that minimizes memory usage
+by sharing common object data instead of duplicating it.
+
+When to use this pattern-
+1. When memory is limited.
+2. When objects share data.
+   -Intrinsic Data : Shared among objects and remain same once defined the values.
+   -Extrinsic Data : Changes based on client input. differ from one object to another.
+3. Creation of object is expensive.
+
+🧠 Core Idea
+Split object state into:
+🔹 Intrinsic State (shared)
+Common data
+Stored inside flyweight
+Reused across objects
+🔹 Extrinsic State (unique)
+Context-specific
+Passed from outside
