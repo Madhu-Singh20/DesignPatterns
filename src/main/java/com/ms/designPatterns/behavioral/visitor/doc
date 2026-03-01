@@ -1,0 +1,4 @@
+1. This allows to add operations to existing classes without changing their structure.
+2. It is achieved by seperating the operation class from the object on which it operates.
+3. It does double dispatch to achieve it- (Double dispatch means the method which needs to be invoked is decided by the caller
+object and the object passed in the argument)
