@@ -1,0 +1,21 @@
+Object Pool Design Pattern -
+The Object Pool Design Pattern is a creational pattern that manages a pool of reusable objects instead of creating and destroying them repeatedly.
+👉 Instead of new every time, you borrow an object from the pool and return it after use.
+
+ObjectPool design pattern is used with singleton design pattern and require thread safety while acquiring and releasing
+the lock.
+
+🧠 Why Do We Need It?
+Creating some objects is expensive:
+Database connections
+Thread objects
+Socket connections
+Large memory objects
+Repeated creation & destruction:
+Slows performance
+Increases GC pressure
+Consumes resources
+Object Pool:
+Reuses objects
+Improves performance
+Controls max object count
